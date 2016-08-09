@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<body class="page{{ title | camelize }}">
+	<div id="wrap">
+		{% include header.html %}
+		<div id="main-content">
+			{{ content }}
+		</div>
+		<!-- End main-content -->	
+		{% include footer.html %}
+	</div>
+	<!-- End wrap -->
+</body>
+</html>	
+				
