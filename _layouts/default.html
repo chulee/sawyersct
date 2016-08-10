@@ -3,12 +3,21 @@
 {% include head.html %}
 <body class="page{{ title | camelize }}">
 	<div id="wrap">
-		{% include header.html %}
-		<div id="main-content">
-			{{ content }}
+		<div id="site-content">
+			{% include header.html %}
+			<div id="main-content">
+				{{ content }}
+				<div id="hp-slideshow">
+					{% for image in page.images %}
+						{{ forloop.index }}-{{ image }}
+					{% endfor %}
+					{{ content }}
+				</div>
+			</div>	
+			<!-- End main-content -->	
+			{% include footer.html %}
 		</div>
-		<!-- End main-content -->	
-		{% include footer.html %}
+		<!-- End site-content -->
 	</div>
 	<!-- End wrap -->
 </body>
