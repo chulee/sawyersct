@@ -1,5 +1,6 @@
 ---
 title: Index
+layout: index
 date: 2016-08-06 06:37:00 Z
 images:
 - "/uploads/hp_module_1.jpg"
