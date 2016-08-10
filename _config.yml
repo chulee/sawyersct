@@ -16,4 +16,4 @@ url: http://example.com
 twitter_username: jekyllrb
 github_username: jekyll
 phone: "(860) 618-5411"
-address: "79 Center St\x03\nTorrington, CT \x03\n06790"
+address: "79 Center St\x03<br/>\nTorrington, CT <br/>\n06790"
